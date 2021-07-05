@@ -39,8 +39,6 @@
   },
   // Terminal
   "terminal.explorerKind": "external",
-  // Window
-  "window.closeWhenEmpty": true,
   "window.nativeTabs": true,
   "window.titleBarStyle": "native",
   "window.title": "${activeEditorShort}${separator}${rootName}",
@@ -48,6 +46,10 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.foreground": "#ffffff"
+  },
   // Extensions
   // Indent Rainbow
   "indentRainbow.colors": [
@@ -61,4 +63,6 @@
   ],
   "indentRainbow.errorColor": "rgba(255,69,58,0.4)",
   "indentRainbow.tabmixColor": "rgba(255,69,58,0.2)",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabSize": 2,
 }
